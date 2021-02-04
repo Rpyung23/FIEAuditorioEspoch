@@ -1,0 +1,529 @@
+{
+  materials: [
+    {
+      name: 'blinn1SG',
+      parameters: [
+        {
+          baseColor: 'reloj_initialShadingGroup_BaseColor',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'lambert8SG',
+      parameters: [
+        {
+          baseColor: 'parroquiatorre_0_initialShadingGroup_BaseColor',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'lambert9SG',
+      parameters: [
+        {
+          baseColor: 'parroquiatorre_1_initialShadingGroup_BaseColor',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'lambert10SG',
+      parameters: [
+        {
+          baseColor: 'parroquiatorre_2_initialShadingGroup_BaseColor',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'lambert11SG',
+      parameters: [
+        {
+          baseColor: 'cupula_initialShadingGroup_BaseColor',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'lambert12SG',
+      parameters: [
+        {
+          baseColor: 'parroquia_initialShadingGroup_BaseColor',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'lambert13SG',
+      parameters: [
+        {
+          baseColor: 'parroquia1_initialShadingGroup_BaseColor',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'lambert14SG',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'lambert15SG',
+      parameters: [
+        {
+          baseColor: 'parroquiaColumna_initialShadingGroup_BaseColor',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'lambert16SG',
+      parameters: [
+        {
+          baseColor: 'parroquiaTorrePeqe_initialShadingGroup_BaseColor',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'lambert17SG',
+      parameters: [
+        {
+          baseColor: 'cupulasegundatorre_initialShadingGroup_BaseColor',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'lambert18SG',
+      parameters: [
+        {
+          baseColor: 'parroquiaEntrada2_initialShadingGroup_BaseColor',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'phong6SG',
+      parameters: [
+        {
+          baseColor: 'parroquiaCruz_initialShadingGroup_BaseColor',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/Parroquia_edificio.obj',
+    name: 'Parroquia_edificio',
+    recenter: 'root',
+    scale: 0.0032450000000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\parroquiatorre_2_initialShadingGroup_Normal.png',
+      name: 'parroquiatorre_2_initialShadingGroup_Normal',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'parroquiatorre_2_initialShadingGroup_Normal.png',
+    },
+    {
+      file: 'sampledata\\reloj_initialShadingGroup_BaseColor.png',
+      name: 'reloj_initialShadingGroup_BaseColor',
+      pipeline_name: 'reloj_initialShadingGroup_BaseColor.png',
+    },
+    {
+      file: 'sampledata\\reloj_initialShadingGroup_Normal.png',
+      name: 'reloj_initialShadingGroup_Normal',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'reloj_initialShadingGroup_Normal.png',
+    },
+    {
+      file: 'sampledata\\parroquiatorre_1_initialShadingGroup_Normal.png',
+      name: 'parroquiatorre_1_initialShadingGroup_Normal',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'parroquiatorre_1_initialShadingGroup_Normal.png',
+    },
+    {
+      file: 'sampledata\\parroquiatorre_0_initialShadingGroup_BaseColor.png',
+      name: 'parroquiatorre_0_initialShadingGroup_BaseColor',
+      pipeline_name: 'parroquiatorre_0_initialShadingGroup_BaseColor.png',
+    },
+    {
+      file: 'sampledata\\parroquiatorre_0_initialShadingGroup_Normal.png',
+      name: 'parroquiatorre_0_initialShadingGroup_Normal',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'parroquiatorre_0_initialShadingGroup_Normal.png',
+    },
+    {
+      file: 'sampledata\\cupula_initialShadingGroup_BaseColor.png',
+      name: 'cupula_initialShadingGroup_BaseColor',
+      pipeline_name: 'cupula_initialShadingGroup_BaseColor.png',
+    },
+    {
+      file: 'sampledata\\parroquiatorre_1_initialShadingGroup_BaseColor.png',
+      name: 'parroquiatorre_1_initialShadingGroup_BaseColor',
+      pipeline_name: 'parroquiatorre_1_initialShadingGroup_BaseColor.png',
+    },
+    {
+      file: 'sampledata\\parroquiaCruz_initialShadingGroup_Metallic.png',
+      name: 'parroquiaCruz_initialShadingGroup_Metallic',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'parroquiaCruz_initialShadingGroup_Metallic.png',
+    },
+    {
+      file: 'sampledata\\parroquiatorre_2_initialShadingGroup_BaseColor.png',
+      name: 'parroquiatorre_2_initialShadingGroup_BaseColor',
+      pipeline_name: 'parroquiatorre_2_initialShadingGroup_BaseColor.png',
+    },
+    {
+      file: 'sampledata\\cupula_initialShadingGroup_Normal.png',
+      name: 'cupula_initialShadingGroup_Normal',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'cupula_initialShadingGroup_Normal.png',
+    },
+    {
+      file: 'sampledata\\parroquia_initialShadingGroup_BaseColor.png',
+      name: 'parroquia_initialShadingGroup_BaseColor',
+      pipeline_name: 'parroquia_initialShadingGroup_BaseColor.png',
+    },
+    {
+      file: 'sampledata\\parroquia_initialShadingGroup_Normal.png',
+      name: 'parroquia_initialShadingGroup_Normal',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'parroquia_initialShadingGroup_Normal.png',
+    },
+    {
+      file: 'sampledata\\parroquiaCruz_initialShadingGroup_Normal.png',
+      name: 'parroquiaCruz_initialShadingGroup_Normal',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'parroquiaCruz_initialShadingGroup_Normal.png',
+    },
+    {
+      file: 'sampledata\\parroquia1_initialShadingGroup_BaseColor.png',
+      name: 'parroquia1_initialShadingGroup_BaseColor',
+      pipeline_name: 'parroquia1_initialShadingGroup_BaseColor.png',
+    },
+    {
+      file: 'sampledata\\parroquia1_initialShadingGroup_Normal.png',
+      name: 'parroquia1_initialShadingGroup_Normal',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'parroquia1_initialShadingGroup_Normal.png',
+    },
+    {
+      file: 'sampledata\\parroquiaColumna1_initialShadingGroup_Normal.png',
+      name: 'parroquiaColumna1_initialShadingGroup_Normal',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'parroquiaColumna1_initialShadingGroup_Normal.png',
+    },
+    {
+      file: 'sampledata\\parroquiaTorrePeqe_initialShadingGroup_BaseColor.png',
+      name: 'parroquiaTorrePeqe_initialShadingGroup_BaseColor',
+      pipeline_name: 'parroquiaTorrePeqe_initialShadingGroup_BaseColor.png',
+    },
+    {
+      file: 'sampledata\\parroquiaColumna_initialShadingGroup_BaseColor.png',
+      name: 'parroquiaColumna_initialShadingGroup_BaseColor',
+      pipeline_name: 'parroquiaColumna_initialShadingGroup_BaseColor.png',
+    },
+    {
+      file: 'sampledata\\parroquiaTorrePeqe_initialShadingGroup_Normal.png',
+      name: 'parroquiaTorrePeqe_initialShadingGroup_Normal',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'parroquiaTorrePeqe_initialShadingGroup_Normal.png',
+    },
+    {
+      file: 'sampledata\\parroquiaColumna_initialShadingGroup_Normal.png',
+      name: 'parroquiaColumna_initialShadingGroup_Normal',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'parroquiaColumna_initialShadingGroup_Normal.png',
+    },
+    {
+      file: 'sampledata\\cupulasegundatorre_initialShadingGroup_BaseColor.png',
+      name: 'cupulasegundatorre_initialShadingGroup_BaseColor',
+      pipeline_name: 'cupulasegundatorre_initialShadingGroup_BaseColor.png',
+    },
+    {
+      file: 'sampledata\\cupulasegundatorre_initialShadingGroup_Normal.png',
+      name: 'cupulasegundatorre_initialShadingGroup_Normal',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'cupulasegundatorre_initialShadingGroup_Normal.png',
+    },
+    {
+      file: 'sampledata\\parroquiaEntrada2_initialShadingGroup_BaseColor.png',
+      name: 'parroquiaEntrada2_initialShadingGroup_BaseColor',
+      pipeline_name: 'parroquiaEntrada2_initialShadingGroup_BaseColor.png',
+    },
+    {
+      file: 'sampledata\\parroquiaEntrada2_initialShadingGroup_Normal.png',
+      name: 'parroquiaEntrada2_initialShadingGroup_Normal',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'parroquiaEntrada2_initialShadingGroup_Normal.png',
+    },
+    {
+      file: 'sampledata\\parroquiaCruz_initialShadingGroup_BaseColor.png',
+      name: 'parroquiaCruz_initialShadingGroup_BaseColor',
+      pipeline_name: 'parroquiaCruz_initialShadingGroup_BaseColor.png',
+    },
+  ],
+  version: '0.52:1',
+}

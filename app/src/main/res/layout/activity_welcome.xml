@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.WelcomeActivity"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="@dimen/alto_ancho_logo_auditorio_fie_welcome"
+            android:layout_height="@dimen/alto_ancho_logo_auditorio_fie_welcome"
+            android:src="@drawable/logo_auditorio_fie"
+            android:scaleType="centerCrop"
+            >
+        </ImageView>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:background="#D7D7D7"
+        android:orientation="vertical"
+        >
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            >
+            <TextView
+                android:layout_marginTop="?actionBarSize"
+                android:textAlignment="center"
+                android:text="Bienvenido!"
+                android:textColor="@color/black"
+                android:textSize="40sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/acme_regular"
+                >
+            </TextView>
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:text="Enpiece a visualizar  nuestros modelos 3D en realidad aumentada"
+                android:textSize="22sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubik_regular"
+                >
+            </TextView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/id_btn_empecemos"
+            android:layout_width="@dimen/ancho_boton_empecemos"
+            android:layout_height="@dimen/ancho_alto_empecemos"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="?actionBarSize"
+            android:background="@drawable/botoniniciar_round"
+            android:text="Empecemos"
+            android:fontFamily="@font/acme_regular"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_empecemos"
+            android:textFontWeight="200"
+            >
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

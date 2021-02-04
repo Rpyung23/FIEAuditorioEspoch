@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.InicioActivity"
+    android:background="@color/colorPrimary"
+    >
+
+    <include
+        layout="@layout/toolbar">
+    </include>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/margin_Top_container_menus"
+        >
+
+        <androidx.cardview.widget.CardView
+            app:cardElevation="0dp"
+            android:layout_margin="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/botonmorado"
+            android:scaleType="centerCrop"
+                >
+            </ImageView>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:orientation="horizontal"
+                >
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    >
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="30dp"
+                    >
+
+                    <TextView
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        android:text="FIE Logo"
+                        android:textAlignment="center"
+                        android:textColor="@color/white_77"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                    </TextView>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/id_btn_comenzar_logo"
+                        android:textSize="20sp"
+                        android:layout_marginTop="10dp"
+                        android:text="Comenzar"
+                        android:textAlignment="center"
+                        android:textColor="@color/textcolo_primary"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="?actionBarSize"
+                        app:backgroundTint="@color/white"
+                        android:textAllCaps="false"
+                        android:fontFamily="@font/acme_regular"
+                        app:cornerRadius="10dp"
+                        app:rippleColor="@color/textcolo_primary_40"
+                        >
+                    </com.google.android.material.button.MaterialButton>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            app:cardElevation="0dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/botoneazul_reflejado"
+                android:scaleType="centerCrop"
+                >
+            </ImageView>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:orientation="horizontal"
+                >
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    >
+
+                    <TextView
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        android:text="Video"
+                        android:textAlignment="center"
+                        android:textColor="@color/white_77"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    </TextView>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/id_btn_comenzar_video"
+                        android:textSize="20sp"
+                        android:layout_marginTop="10dp"
+                        android:text="Comenzar"
+                        android:textAlignment="center"
+                        android:textColor="@color/textcolo_primary_video"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="?actionBarSize"
+
+                        app:backgroundTint="@color/white"
+                        android:textAllCaps="false"
+                        android:fontFamily="@font/acme_regular"
+                        app:rippleColor="@color/textcolo_primary_video_40"
+                        app:cornerRadius="10dp"
+                        >
+                    </com.google.android.material.button.MaterialButton>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    >
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            app:cardElevation="0dp"
+            android:layout_margin="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            app:cardBackgroundColor="@android:color/transparent"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/botonmorado"
+                android:scaleType="centerCrop"
+                >
+            </ImageView>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1"
+                android:orientation="horizontal"
+                >
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    >
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="30dp"
+                    >
+
+                    <TextView
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        android:text="Edificio"
+                        android:textAlignment="center"
+                        android:textColor="@color/white_77"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+                    </TextView>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/id_btn_graduacion"
+                        android:textSize="20sp"
+                        android:layout_marginTop="10dp"
+                        android:text="Comenzar"
+                        android:textAlignment="center"
+                        android:textColor="@color/textcolo_primary"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="?actionBarSize"
+                        app:backgroundTint="@color/white"
+                        android:textAllCaps="false"
+                        android:fontFamily="@font/acme_regular"
+                        app:cornerRadius="10dp"
+                        app:rippleColor="@color/textcolo_primary_40"
+                        >
+                    </com.google.android.material.button.MaterialButton>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/id_btnfloating_qr"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="?actionBarSize"
+        android:src="@drawable/round_floating"
+        android:scaleType="centerCrop"
+        android:layout_width="@dimen/alto_ancho_floating_qr"
+        android:layout_height="@dimen/alto_ancho_floating_qr">
+
+    </ImageView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

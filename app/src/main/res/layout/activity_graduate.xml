@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.GraduateActivity"
+    android:orientation="vertical"
+    >
+
+    <include
+        layout="@layout/toolbar_back">
+    </include>
+
+    <fragment
+        android:id="@+id/id_fragment_graduate"
+        android:name="com.virtualcode7ecuadorvigitrack.auditorioespoch.CustomArGFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
