@@ -2,6 +2,7 @@ package com.virtualcode7ecuadorvigitrack.auditorioespoch.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Toast;
@@ -64,8 +65,14 @@ public class GraduateActivity extends AppCompatActivity implements Scene.OnUpdat
             {
                 if (image.getName().equals("imagedificio"))
                 {
-                    Anchor mAnchor = image.createAnchor(image.getCenterPose());
-                    createModel(mAnchor);
+                    /*Anchor mAnchor = image.createAnchor(image.getCenterPose());
+                    createModel(mAnchor);*/
+
+                    Intent sceneViewerIntent = new Intent(Intent.ACTION_VIEW);
+                    sceneViewerIntent.setData(Uri.parse("https://arvr.google.com/scene-viewer/1.0?file=http://vigitrackecuador.com/service_mbf/auditorio.glb"));
+                    sceneViewerIntent.setPackage("com.google.android.googlequicksearchbox");
+                    startActivity(sceneViewerIntent);
+
                 }
             }
         }

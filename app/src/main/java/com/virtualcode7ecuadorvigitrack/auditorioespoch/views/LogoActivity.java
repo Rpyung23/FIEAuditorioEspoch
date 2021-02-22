@@ -2,6 +2,7 @@ package com.virtualcode7ecuadorvigitrack.auditorioespoch.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
@@ -47,6 +48,7 @@ public class LogoActivity extends AppCompatActivity implements Scene.OnUpdateLis
                 {
                     Anchor mAnchor = image.createAnchor(image.getCenterPose());
                     createModel(mAnchor);
+
                 }
             }
         }

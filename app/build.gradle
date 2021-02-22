@@ -55,18 +55,3 @@ sceneform.asset('sampledata/video_screen.obj',
         'sampledata/video_screen.sfa',
         'src/main/assets/video_screen')
 
-sceneform.asset('sampledata/fieauditorio.obj',
-        'default',
-        'sampledata/fieauditorio.sfa',
-        'src/main/assets/fieauditorio')
-
-
-sceneform.asset('sampledata/auditoriofie.obj',
-        'default',
-        'sampledata/auditoriofie.sfa',
-        'src/main/assets/auditoriofie')
-
-sceneform.asset('sampledata/Parroquia_edificio.obj',
-        'default',
-        'sampledata/Parroquia_edificio.sfa',
-        'src/main/assets/Parroquia_edificio')
