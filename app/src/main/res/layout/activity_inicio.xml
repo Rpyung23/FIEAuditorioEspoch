@@ -15,7 +15,7 @@
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_marginTop="@dimen/margin_Top_container_menus"
         >
@@ -63,7 +63,7 @@
                     <TextView
                         android:textSize="28sp"
                         android:textStyle="bold"
-                        android:text="FIE Logo"
+                        android:text="DTICS"
                         android:textAlignment="center"
                         android:textColor="@color/white_77"
                         android:layout_width="match_parent"
@@ -175,82 +175,7 @@
 
         </androidx.cardview.widget.CardView>
 
-        <androidx.cardview.widget.CardView
-            app:cardElevation="0dp"
-            android:layout_margin="30dp"
-            android:layout_width="match_parent"
-            android:layout_height="170dp"
-            app:cardBackgroundColor="@android:color/transparent"
-            >
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/botonmorado"
-                android:scaleType="centerCrop"
-                >
-            </ImageView>
-
-            <androidx.appcompat.widget.LinearLayoutCompat
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:weightSum="1"
-                android:orientation="horizontal"
-                >
-
-                <androidx.appcompat.widget.LinearLayoutCompat
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="0.5"
-                    >
-                </androidx.appcompat.widget.LinearLayoutCompat>
-
-
-                <androidx.appcompat.widget.LinearLayoutCompat
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="0.5"
-                    android:orientation="vertical"
-                    android:gravity="center_vertical"
-                    android:layout_marginRight="30dp"
-                    >
-
-                    <TextView
-                        android:textSize="28sp"
-                        android:textStyle="bold"
-                        android:text="Edificio"
-                        android:textAlignment="center"
-                        android:textColor="@color/white_77"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        >
-                    </TextView>
-
-                    <com.google.android.material.button.MaterialButton
-                        android:id="@+id/id_btn_graduacion"
-                        android:textSize="20sp"
-                        android:layout_marginTop="10dp"
-                        android:text="Comenzar"
-                        android:textAlignment="center"
-                        android:textColor="@color/textcolo_primary"
-                        android:layout_gravity="center_horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="?actionBarSize"
-                        app:backgroundTint="@color/white"
-                        android:textAllCaps="false"
-                        android:fontFamily="@font/acme_regular"
-                        app:cornerRadius="10dp"
-                        app:rippleColor="@color/textcolo_primary_40"
-                        >
-                    </com.google.android.material.button.MaterialButton>
-
-                </androidx.appcompat.widget.LinearLayoutCompat>
-
-
-            </androidx.appcompat.widget.LinearLayoutCompat>
-
-
-        </androidx.cardview.widget.CardView>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -266,6 +191,19 @@
         android:layout_height="@dimen/alto_ancho_floating_qr">
 
     </ImageView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/id_enlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/ic_baseline_link_24"
+        app:maxImageSize="37dp"
+        >
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

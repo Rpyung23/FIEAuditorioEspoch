@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="alto_ancho_logo_auditorio_fie_welcome">230dp</dimen>
+    <dimen name="alto_ancho_logo_auditorio_fie_welcome">200dp</dimen>
     <dimen name="textsize_empecemos">31sp</dimen>
     <dimen name="ancho_boton_empecemos">265dp</dimen>
     <dimen name="ancho_alto_empecemos">80dp</dimen>

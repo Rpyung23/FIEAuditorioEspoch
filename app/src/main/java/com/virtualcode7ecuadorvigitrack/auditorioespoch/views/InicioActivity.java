@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.google.android.material.button.MaterialButton;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.virtualcode7ecuadorvigitrack.auditorioespoch.R;
 import com.virtualcode7ecuadorvigitrack.auditorioespoch.utils.cToolbar;
 
@@ -23,8 +24,9 @@ public class InicioActivity extends AppCompatActivity
 
     private Toolbar mToolbar;
     private MaterialButton materialButtonVideo;
-    private MaterialButton materialButtonGraduate;
+    //private MaterialButton materialButtonGraduate;
     private MaterialButton materialButtonLogo;
+    private FloatingActionButton mFloatingActionButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,8 +36,19 @@ public class InicioActivity extends AppCompatActivity
                 .showToolbar(InicioActivity.this,mToolbar,"",1,true);
 
         materialButtonVideo = findViewById(R.id.id_btn_comenzar_video);
-        materialButtonGraduate = findViewById(R.id.id_btn_graduacion);
+        //materialButtonGraduate = findViewById(R.id.id_btn_graduacion);
         materialButtonLogo = findViewById(R.id.id_btn_comenzar_logo);
+        mFloatingActionButton = findViewById(R.id.id_enlace);
+        mFloatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intentNavegador = new Intent(Intent.ACTION_VIEW,
+                        Uri.parse("https://g9blogpaseovirtual.wordpress.com/"));
+                startActivity(intentNavegador);
+            }
+        });
+
         materialButtonLogo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)
@@ -68,7 +81,7 @@ public class InicioActivity extends AppCompatActivity
                 startActivity(mIntent);
             }
         });
-        materialButtonGraduate.setOnClickListener(new View.OnClickListener() {
+        /*materialButtonGraduate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)
             {
@@ -76,7 +89,7 @@ public class InicioActivity extends AppCompatActivity
                 mIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(mIntent);*/
 
-                Log.e("DIR",getExternalStorageDirectory().getAbsolutePath());
+                /*Log.e("DIR",getExternalStorageDirectory().getAbsolutePath());
 
                 Intent sceneViewerIntent = new Intent(Intent.ACTION_VIEW);
                 sceneViewerIntent.setData(Uri.parse("https://arvr.google.com/scene-viewer/1.0?file=http://vigitrackecuador.com/service_mbf/auditorio.glb"));
@@ -84,7 +97,7 @@ public class InicioActivity extends AppCompatActivity
                 startActivity(sceneViewerIntent);
 
             }
-        });
+        });*/
     }
 
 

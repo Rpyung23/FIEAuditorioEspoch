@@ -19,7 +19,7 @@
         <ImageView
             android:layout_width="@dimen/alto_ancho_logo_auditorio_fie_welcome"
             android:layout_height="@dimen/alto_ancho_logo_auditorio_fie_welcome"
-            android:src="@drawable/logo_auditorio_fie"
+            android:src="@drawable/logo_abstract_2"
             android:scaleType="centerCrop"
             >
         </ImageView>
